@@ -12,12 +12,12 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "21.02-SNAPSHOT"
+          - tag: "21.02"
             pkgarch: aarch64_cortex-a53
             target: ipq95xx
             subtarget: generic
             vermagic: "d9dae586bdf6966bc7543e977870024b"
-          - tag: "R25.2.5"
+          - tag: "21.02.1"
             pkgarch: aarch64_cortex-a53
             target: ipq95xx
             subtarget: generic
