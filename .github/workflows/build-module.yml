@@ -12,15 +12,10 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "21.02"
-            pkgarch: aarch64_cortex-a53
-            target: ipq95xx
-            subtarget: generic
-            vermagic: "d9dae586bdf6966bc7543e977870024b"
           - tag: "21.02.1"
             pkgarch: aarch64_cortex-a53
-            target: ipq95xx
-            subtarget: generic
+            target: rockchip
+            subtarget: armv8
             vermagic: "d9dae586bdf6966bc7543e977870024b"
 
     steps:
